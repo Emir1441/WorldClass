@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  worldclass.api:
+    image: ${DOCKER_REGISTRY-}worldclassapi
+    build:
+      context: .
+      dockerfile: WorldClass.Api/Dockerfile
