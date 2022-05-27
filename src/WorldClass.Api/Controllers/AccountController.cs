@@ -13,7 +13,7 @@ namespace WorldClass.Api.Controllers
             return Ok(signUpDto);
         }
 
-        [HttpPost("signIn")]
+        [HttpPost("signIn")]//TODO норм такое имя
         public async Task<IActionResult> SignInAsync(SignInDto signInDto)
         {
             return Ok(signInDto);
